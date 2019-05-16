@@ -1,0 +1,7 @@
+CREATE TABLE `NewTable` (
+`user_id`  int NOT NULL AUTO_INCREMENT ,
+`user_loginName`  varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '用户登录名' ,
+`user_password`  varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '密码' ,
+`user_nickName`  varchar(64) CHARACTER SET utf8 COLLATE utf8_general_ci NULL COMMENT '昵称' ,
+PRIMARY KEY (`user_id`)
+);
